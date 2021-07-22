@@ -140,7 +140,7 @@ class SiteHandler:
         def html_response(document):
             s = open(document, "r")
             return web.Response(text=s.read(), content_type='text/html')
-        return html_response('test.html')  
+        return html_response('templates/test.html')  
         # response = (request, 'test')
         # await forget(request, response)
       # return response
