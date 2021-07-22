@@ -135,6 +135,16 @@ class SiteHandler:
             return redirect(request, 'timeline')
         return {'error': None, 'form': None}
 
+  # @aiohttp_jinja2.template('test.html')
+    async def test_page(self, request):
+        def html_response(document):
+            s = open(document, "r")
+            return web.Response(text=s.read(), content_type='text/html')
+        return html_response('test.html')  
+        # response = (request, 'test')
+        # await forget(request, response)
+      # return response
+
     @auth_required
     async def follow_user(self, request):
         username = request.match_info['username']
