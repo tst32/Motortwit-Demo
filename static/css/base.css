@@ -1,0 +1,18 @@
+
+
+body {
+	background: #eeeeee ;
+}
+
+body > .container {
+	padding-top: 4.5rem;
+	font: 14px/1.2em Georgia;
+}
+
+footer {
+	font: 14px/1.2em Georgia;
+	background-color: #f5f5f5;
+	padding-bottom: 1.5rem;
+}
+
+
