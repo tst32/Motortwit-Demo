@@ -1,7 +1,7 @@
 Motortwit Demo
 ==============
 
-Example of mongo project using aiohttp_, motor_ and aiohttp_jinja2_,
+Example of mongo project using aiohttp_, motor_ and aiohttp_jinja2_ (https://readthedocs.org/projects/aiohttp-jinja2/downloads/pdf/latest/), 
 similar to flask one. Here I assume you have *python3.5* and *docker* installed.
 
 Installation
